@@ -17,8 +17,8 @@ public:
     Sound score, dieman;
 
     setSound() {
-        s1.loadFromFile("C:/Users/ой/Desktop/Programming_Project/Lesson/Play/Sound_Paint/Snake/score.ogg");
-        s2.loadFromFile("C:/Users/ой/Desktop/Programming_Project/Lesson/Play/Sound_Paint/Snake/dieman.ogg");
+        s1.loadFromFile("C:/Users/ой/Desktop/Programming_Project/Lesson/Play/Play_Snake/Snake/score.ogg");
+        s2.loadFromFile("C:/Users/ой/Desktop/Programming_Project/Lesson/Play/Play_Snake/Snake/dieman.ogg");
 
         score.setBuffer(s1);
         dieman.setBuffer(s2);
@@ -84,19 +84,19 @@ int main()
     RenderWindow window(VideoMode(ts * N, ts * M), "Snake!");
 
     Texture t;
-    t.loadFromFile("C:/Users/ой/Desktop/Programming_Project/Lesson/Play/Sound_Paint/Snake/Painting/tiles.png");
+    t.loadFromFile("C:/Users/ой/Desktop/Programming_Project/Lesson/Play/Play_Snake/Snake/Painting/tiles.png");
     Sprite tiles(t);
 
     Texture sn;
-    sn.loadFromFile("C:/Users/ой/Desktop/Programming_Project/Lesson/Play/Sound_Paint/Snake/Painting/snake.png");
+    sn.loadFromFile("C:/Users/ой/Desktop/Programming_Project/Lesson/Play/Play_Snake/Snake/Painting/snake.png");
     Sprite snake(sn);
 
     Texture ap;
-    ap.loadFromFile("C:/Users/ой/Desktop/Programming_Project/Lesson/Play/Sound_Paint/Snake/Painting/apple.png");
+    ap.loadFromFile("C:/Users/ой/Desktop/Programming_Project/Lesson/Play/Play_Snake/Snake/Painting/apple.png");
     Sprite apple(ap);
 
     Texture go;
-    go.loadFromFile("C:/Users/ой/Desktop/Programming_Project/Lesson/Play/Sound_Paint/Snake/Painting/gameover.png");
+    go.loadFromFile("C:/Users/ой/Desktop/Programming_Project/Lesson/Play/Play_Snake/Snake/Painting/gameover.png");
     Sprite gameover(go);
     gameover.setPosition(0, 175);
 
