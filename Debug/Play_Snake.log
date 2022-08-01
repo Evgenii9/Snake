@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\ПК\Desktop\Programming_Project\Lesson\Play\Play_Snake\main.cpp(82,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\ПК\Desktop\Programming_Project\Lesson\Play\Play_Snake\main.cpp(107,33): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\ПК\Desktop\Programming_Project\Lesson\Play\Play_Snake\main.cpp(140,45): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\ПК\Desktop\Programming_Project\Lesson\Play\Play_Snake\main.cpp(140,37): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\ПК\Desktop\Programming_Project\Lesson\Play\Play_Snake\main.cpp(153,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\ПК\Desktop\Programming_Project\Lesson\Play\Play_Snake\main.cpp(153,38): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\ПК\Desktop\Programming_Project\Lesson\Play\Play_Snake\main.cpp(157,41): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\ПК\Desktop\Programming_Project\Lesson\Play\Play_Snake\main.cpp(157,31): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Play_Snake.vcxproj -> C:\Users\ПК\Desktop\Programming_Project\Lesson\Play\Play_Snake\Debug\Play_Snake.exe
